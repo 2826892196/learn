@@ -12,9 +12,7 @@
 		CBF09E2D2ADA00ABACC040CA /* libPods-lengli_learnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE987BF7259E0110F8F67A /* libPods-lengli_learnTests.a */; };
 		F81D4C1F22B9FBC700D82B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C1E22B9FBC700D82B84 /* AppDelegate.m */; };
 		F81D4C2222B9FBC700D82B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C2122B9FBC700D82B84 /* ViewController.m */; };
-		F81D4C2522B9FBC700D82B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81D4C2322B9FBC700D82B84 /* Main.storyboard */; };
 		F81D4C2722B9FBC800D82B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81D4C2622B9FBC800D82B84 /* Assets.xcassets */; };
-		F81D4C2A22B9FBC800D82B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81D4C2822B9FBC800D82B84 /* LaunchScreen.storyboard */; };
 		F81D4C2D22B9FBC800D82B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C2C22B9FBC800D82B84 /* main.m */; };
 		F81D4C3722B9FBC800D82B84 /* lengli_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C3622B9FBC800D82B84 /* lengli_learnTests.m */; };
 		F81D4C4222B9FBC800D82B84 /* lengli_learnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C4122B9FBC800D82B84 /* lengli_learnUITests.m */; };
@@ -52,9 +50,7 @@
 		F81D4C1E22B9FBC700D82B84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F81D4C2022B9FBC700D82B84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F81D4C2122B9FBC700D82B84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F81D4C2422B9FBC700D82B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F81D4C2622B9FBC800D82B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F81D4C2922B9FBC800D82B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F81D4C2B22B9FBC800D82B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F81D4C2C22B9FBC800D82B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F81D4C3222B9FBC800D82B84 /* lengli_learnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lengli_learnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,9 +131,7 @@
 				F81D4C1E22B9FBC700D82B84 /* AppDelegate.m */,
 				F81D4C2022B9FBC700D82B84 /* ViewController.h */,
 				F81D4C2122B9FBC700D82B84 /* ViewController.m */,
-				F81D4C2322B9FBC700D82B84 /* Main.storyboard */,
 				F81D4C2622B9FBC800D82B84 /* Assets.xcassets */,
-				F81D4C2822B9FBC800D82B84 /* LaunchScreen.storyboard */,
 				F81D4C2B22B9FBC800D82B84 /* Info.plist */,
 				F81D4C2C22B9FBC800D82B84 /* main.m */,
 			);
@@ -284,9 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81D4C2A22B9FBC800D82B84 /* LaunchScreen.storyboard in Resources */,
 				F81D4C2722B9FBC800D82B84 /* Assets.xcassets in Resources */,
-				F81D4C2522B9FBC700D82B84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,25 +487,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		F81D4C2322B9FBC700D82B84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F81D4C2422B9FBC700D82B84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F81D4C2822B9FBC800D82B84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F81D4C2922B9FBC800D82B84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		F81D4C4422B9FBC800D82B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -632,9 +605,13 @@
 			baseConfigurationReference = 76F94A482B68831D8BB1F846 /* Pods-lengli_learn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -646,9 +623,13 @@
 			baseConfigurationReference = 6811E4EE3A2205CCC509D213 /* Pods-lengli_learn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,7 +643,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -677,7 +662,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,7 +680,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -705,7 +698,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
