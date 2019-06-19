@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CC1B3D0F88725E9AA2221B1 /* libPods-lengli_learn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 939C34B1C0652F852F9D2C24 /* libPods-lengli_learn.a */; };
+		8AE98698D5985FBDC74A1459 /* libPods-lengli_learnUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00766F1FCE0DEE6BC21AD81D /* libPods-lengli_learnUITests.a */; };
+		CBF09E2D2ADA00ABACC040CA /* libPods-lengli_learnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE987BF7259E0110F8F67A /* libPods-lengli_learnTests.a */; };
 		F81D4C1F22B9FBC700D82B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C1E22B9FBC700D82B84 /* AppDelegate.m */; };
 		F81D4C2222B9FBC700D82B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D4C2122B9FBC700D82B84 /* ViewController.m */; };
 		F81D4C2522B9FBC700D82B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81D4C2322B9FBC700D82B84 /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00766F1FCE0DEE6BC21AD81D /* libPods-lengli_learnUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lengli_learnUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DD850BF46FB19368B0C481 /* Pods-lengli_learnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lengli_learnUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lengli_learnUITests/Pods-lengli_learnUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4546CCC0B294249BC54A7B /* Pods-lengli_learnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lengli_learnTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lengli_learnTests/Pods-lengli_learnTests.release.xcconfig"; sourceTree = "<group>"; };
+		6811E4EE3A2205CCC509D213 /* Pods-lengli_learn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lengli_learn.release.xcconfig"; path = "Pods/Target Support Files/Pods-lengli_learn/Pods-lengli_learn.release.xcconfig"; sourceTree = "<group>"; };
+		76F94A482B68831D8BB1F846 /* Pods-lengli_learn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lengli_learn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lengli_learn/Pods-lengli_learn.debug.xcconfig"; sourceTree = "<group>"; };
+		939C34B1C0652F852F9D2C24 /* libPods-lengli_learn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lengli_learn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AE987BF7259E0110F8F67A /* libPods-lengli_learnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lengli_learnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D147D197D7379725E7BB51DD /* Pods-lengli_learnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lengli_learnUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lengli_learnUITests/Pods-lengli_learnUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF332350CADF06B6A4A33A4C /* Pods-lengli_learnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lengli_learnTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lengli_learnTests/Pods-lengli_learnTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F81D4C1A22B9FBC700D82B84 /* lengli_learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lengli_learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81D4C1D22B9FBC700D82B84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F81D4C1E22B9FBC700D82B84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC1B3D0F88725E9AA2221B1 /* libPods-lengli_learn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF09E2D2ADA00ABACC040CA /* libPods-lengli_learnTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE98698D5985FBDC74A1459 /* libPods-lengli_learnUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		749D805BC700D9634DDEB2A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76F94A482B68831D8BB1F846 /* Pods-lengli_learn.debug.xcconfig */,
+				6811E4EE3A2205CCC509D213 /* Pods-lengli_learn.release.xcconfig */,
+				EF332350CADF06B6A4A33A4C /* Pods-lengli_learnTests.debug.xcconfig */,
+				1B4546CCC0B294249BC54A7B /* Pods-lengli_learnTests.release.xcconfig */,
+				08DD850BF46FB19368B0C481 /* Pods-lengli_learnUITests.debug.xcconfig */,
+				D147D197D7379725E7BB51DD /* Pods-lengli_learnUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F81D4C1122B9FBC700D82B84 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				F81D4C3522B9FBC800D82B84 /* lengli_learnTests */,
 				F81D4C4022B9FBC800D82B84 /* lengli_learnUITests */,
 				F81D4C1B22B9FBC700D82B84 /* Products */,
+				749D805BC700D9634DDEB2A6 /* Pods */,
+				FDC7FD57AE2A7691F4032EC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +162,16 @@
 			path = lengli_learnUITests;
 			sourceTree = "<group>";
 		};
+		FDC7FD57AE2A7691F4032EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939C34B1C0652F852F9D2C24 /* libPods-lengli_learn.a */,
+				B4AE987BF7259E0110F8F67A /* libPods-lengli_learnTests.a */,
+				00766F1FCE0DEE6BC21AD81D /* libPods-lengli_learnUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F81D4C4622B9FBC800D82B84 /* Build configuration list for PBXNativeTarget "lengli_learn" */;
 			buildPhases = (
+				4C8DEE2CFDAA59EF2AA17036 /* [CP] Check Pods Manifest.lock */,
 				F81D4C1622B9FBC700D82B84 /* Sources */,
 				F81D4C1722B9FBC700D82B84 /* Frameworks */,
 				F81D4C1822B9FBC700D82B84 /* Resources */,
+				99324120C9F5C7F35CE863E3 /* [CP] Embed Pods Frameworks */,
+				CF8B58BF66E951818ADAB699 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F81D4C4922B9FBC800D82B84 /* Build configuration list for PBXNativeTarget "lengli_learnTests" */;
 			buildPhases = (
+				51E0216785EBDF13FB7690BF /* [CP] Check Pods Manifest.lock */,
 				F81D4C2E22B9FBC800D82B84 /* Sources */,
 				F81D4C2F22B9FBC800D82B84 /* Frameworks */,
 				F81D4C3022B9FBC800D82B84 /* Resources */,
+				265FC583F3ED933C312263D0 /* [CP] Embed Pods Frameworks */,
+				B429C8693F1D1C6D3508D1D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F81D4C4C22B9FBC800D82B84 /* Build configuration list for PBXNativeTarget "lengli_learnUITests" */;
 			buildPhases = (
+				A2D4B379186A392BE7556E20 /* [CP] Check Pods Manifest.lock */,
 				F81D4C3922B9FBC800D82B84 /* Sources */,
 				F81D4C3A22B9FBC800D82B84 /* Frameworks */,
 				F81D4C3B22B9FBC800D82B84 /* Resources */,
+				C105E4EA3928FFC74D062CEB /* [CP] Embed Pods Frameworks */,
+				9C6FBA01E86EAA85F5F41734 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		265FC583F3ED933C312263D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lengli_learnTests/Pods-lengli_learnTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8DEE2CFDAA59EF2AA17036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lengli_learn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E0216785EBDF13FB7690BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lengli_learnTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99324120C9F5C7F35CE863E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lengli_learn/Pods-lengli_learn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6FBA01E86EAA85F5F41734 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lengli_learnUITests/Pods-lengli_learnUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D4B379186A392BE7556E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lengli_learnUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B429C8693F1D1C6D3508D1D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lengli_learnTests/Pods-lengli_learnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C105E4EA3928FFC74D062CEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lengli_learnUITests/Pods-lengli_learnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8B58BF66E951818ADAB699 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lengli_learn/Pods-lengli_learn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F81D4C1622B9FBC700D82B84 /* Sources */ = {
@@ -433,14 +629,12 @@
 		};
 		F81D4C4722B9FBC800D82B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F94A482B68831D8BB1F846 /* Pods-lengli_learn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,14 +643,12 @@
 		};
 		F81D4C4822B9FBC800D82B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6811E4EE3A2205CCC509D213 /* Pods-lengli_learn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,15 +657,12 @@
 		};
 		F81D4C4A22B9FBC800D82B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF332350CADF06B6A4A33A4C /* Pods-lengli_learnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,15 +672,12 @@
 		};
 		F81D4C4B22B9FBC800D82B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4546CCC0B294249BC54A7B /* Pods-lengli_learnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,14 +687,11 @@
 		};
 		F81D4C4D22B9FBC800D82B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DD850BF46FB19368B0C481 /* Pods-lengli_learnUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,14 +701,11 @@
 		};
 		F81D4C4E22B9FBC800D82B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D147D197D7379725E7BB51DD /* Pods-lengli_learnUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lengli_learnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitcoin.lengli-learnUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
