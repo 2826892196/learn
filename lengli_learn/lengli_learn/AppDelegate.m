@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
+#import "VcLifeCycleViewController.h"
 #import "ViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -18,7 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    ViewController *vc = [[ViewController alloc] init];
+    VcLifeCycleViewController *a = [[VcLifeCycleViewController alloc] init];
+    a.tabBarItem.title = @"111";
+    a.tabBarItem.image = [UIImage imageNamed:@"NavigationClose"];
+    
+    ViewController *b = [[ViewController alloc] init];
+    b.tabBarItem.title = @"222";
+    b.tabBarItem.image = [UIImage imageNamed:@"NavigationClose"];
+    
+    TabBarViewController *vc = [[TabBarViewController alloc] init];
+    [vc setViewControllers:@[a, b]];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.

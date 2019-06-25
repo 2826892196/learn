@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VcLifeCycleViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(aaa) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
     // Do any additional setup after loading the view.
 }
 
+- (void)aaa {
+    VcLifeCycleViewController *vc = [[VcLifeCycleViewController alloc] initWithNibName:@"VcLifeCycleViewController" bundle:nil];
+//    VcLifeCycleViewController *vc = [[VcLifeCycleViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end
