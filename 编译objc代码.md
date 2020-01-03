@@ -46,22 +46,22 @@
 	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0common%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BC%95%E7%94%A8%E7%9A%84%E5%89%AF%E6%9C%AC.png?raw=true)
 
 - - 编译objc源码报错问题
-	> *  问题1
-	错误信息 
-	objc - The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.
-	objc-trampolines - The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.
+	- 问题1  
+	错误信息   
+		  objc - The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.   
+		  objc-trampolines - The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.   
 	解决方案
 		 target分别是objc和objc-trampolines，将i386架构移除。
 		 	移除objc 点击项目 --> 选中TARGETS中的objc --> 点击Build Settings --> 搜索Architecture --> 将debug修改为Standard Architectures(64-bit intel)
 		 	移除objc-trampolines 点击项目 --> 选中TARGETS中的objc-trampolines --> 点击Build Settings --> 搜索Architecture --> 将debug修改为Standard Architectures(64-bit intel)
-	> *  问题2
+	- 问题2
 	错误信息 
 		  'sys/reason.h' file not found
 	解决方案
 			再common中创建sys文件夹
 			终端查找“reason”文件 代码：【 find . -name 'reason.h' 】
 		 	终端拷贝代码到文件夹 代码：【 cp -r 第一步查找到的地址 源码位置/Common/sys/ 】例如：cp -r ./xnu-4903.221.2/bsd/sys/reason.h ./runtime/objc4-750.1/Common/sys/
-	> *  问题3
+	- 问题3
 	错误信息 
 		  'mach-o/dyld_priv.h' file not found
 	解决方案
