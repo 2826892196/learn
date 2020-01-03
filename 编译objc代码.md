@@ -39,11 +39,10 @@
 
 - - 创建文件夹存放依赖开源包
 	在objc项目中创建common文件
-	![创建common文件夹](https://github.com/2826892196/learn/blob/master/pic/%E5%88%9B%E5%BB%BAcommon%E6%96%87%E4%BB%B6%E5%A4%B9.png?raw=true)
-
+	![创建common文件夹.png](https://upload-images.jianshu.io/upload_images/20742303-7de04f7a848030a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	common文件放到header search paths中
 		点击项目 --> 选中TARGETS中的objc --> 点击Build Settings --> 搜索header search --> 在debug中增加$(SRCROOT)/Common
-	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0common%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BC%95%E7%94%A8%E7%9A%84%E5%89%AF%E6%9C%AC.png?raw=true)
+	![添加common文件夹引用的副本.png](https://upload-images.jianshu.io/upload_images/20742303-38f80dff280a67d6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - - 编译objc源码报错问题
 	- 问题1  
@@ -209,21 +208,19 @@
 
 - - 添加Debug Target
 	第一步：点击加号添加target
-	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0debug_1.jpg?raw=true)
+	![添加debug_1.jpg](https://upload-images.jianshu.io/upload_images/20742303-7c4c1e37a11eab37.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 	第二步：选择command line tool点击下一步
-	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0debug_2.jpg?raw=true)
+	![添加debug_2.jpg](https://upload-images.jianshu.io/upload_images/20742303-5f0eac666a899b26.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
 	第三步：输入项目名称 objc_test点击完成
-	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0debug_3.jpg?raw=true)
+	![添加debug_3.jpg](https://upload-images.jianshu.io/upload_images/20742303-22b6e1f6c90bef8d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
 	第四步：为objc_test添加工程依赖
-	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0debug_4.jpg?raw=true)
+	![添加debug_4.jpg](https://upload-images.jianshu.io/upload_images/20742303-2d1f7265af2517a1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
 	第五步：选择objc_test运行程序 发现控制台已经打印hello world了
-	![](https://github.com/2826892196/learn/blob/master/pic/%E6%B7%BB%E5%8A%A0debug_4.jpg?raw=true)
-	
-
+	![添加debug_5.jpg](https://upload-images.jianshu.io/upload_images/20742303-7b68232e65395979.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ------------
 
 恭喜已经成功了可以在这研究底层代码了
