@@ -47,13 +47,13 @@
 
 - - 编译objc源码报错问题
 	- 问题1  
-	错误信息   
+	> * 错误信息   
 		  objc - The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.   
 		  objc-trampolines - The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.   
-	解决方案
-		 target分别是objc和objc-trampolines，将i386架构移除。
-		 	移除objc 点击项目 --> 选中TARGETS中的objc --> 点击Build Settings --> 搜索Architecture --> 将debug修改为Standard Architectures(64-bit intel)
-		 	移除objc-trampolines 点击项目 --> 选中TARGETS中的objc-trampolines --> 点击Build Settings --> 搜索Architecture --> 将debug修改为Standard Architectures(64-bit intel)
+	> * 解决方案  
+		 target分别是objc和objc-trampolines，将i386架构移除。  
+		 	移除objc 点击项目 --> 选中TARGETS中的objc --> 点击Build Settings --> 搜索Architecture --> 将debug修改为Standard Architectures(64-bit intel)  
+		 	移除objc-trampolines 点击项目 --> 选中TARGETS中的objc-trampolines --> 点击Build Settings --> 搜索Architecture --> 将debug修改为Standard Architectures(64-bit intel)  
 	- 问题2
 	错误信息 
 		  'sys/reason.h' file not found
